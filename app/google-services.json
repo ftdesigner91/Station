@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "381838828931",
+    "firebase_url": "https://mapmygas-default-rtdb.firebaseio.com",
+    "project_id": "mapmygas",
+    "storage_bucket": "mapmygas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381838828931:android:cadb5dcc03e684681dc2b6",
+        "android_client_info": {
+          "package_name": "com.gmail.mapmygas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381838828931-pn1dunmqs16n4v1kuorooasi4hfa2iui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.mapmygas",
+            "certificate_hash": "e8ea4634935c6667e19ef41883941c8b4c3e8bb8"
+          }
+        },
+        {
+          "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdSpwjGUJF6YPv_wY6OlD4MXeM5ZipxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381838828931:android:a1f0d136b0f352471dc2b6",
+        "android_client_info": {
+          "package_name": "com.gmail.mapmygasstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdSpwjGUJF6YPv_wY6OlD4MXeM5ZipxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381838828931:android:352f43299cfca06f1dc2b6",
+        "android_client_info": {
+          "package_name": "com.gmail.station"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdSpwjGUJF6YPv_wY6OlD4MXeM5ZipxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381838828931-a5v84qhtpdhuuaeco6jg6jk1cj0q2n5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

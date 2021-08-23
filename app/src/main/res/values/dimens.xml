@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_extreme_radius">300dp</dimen>
+    <dimen name="card_max_radius">20dp</dimen>
+    <dimen name="card_min_radius">10dp</dimen>
+    <dimen name="msg_bubble_corner">300dp</dimen>
+</resources>

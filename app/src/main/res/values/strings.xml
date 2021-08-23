@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Station Manager</string>
+    <string name="end_at_0_0">end at 0:0</string>
+    <string name="start_at_0_0">start at 0:0</string>
+    <string name="add_service">Add Service</string>
+    <string name="messages">Messages</string>
+    <!--<string name="default_web_client_id">381838828931-hakroemgsdrln4po9rcdriv6p0a0477q.apps.googleusercontent.com</string>-->
+    <!--<string name="at_station"><u>I'm at the station</u>.</string>
+    <string name="not_at_station"><u>I'm not at the station</u>.</string>-->
+</resources>

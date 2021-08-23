@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <solid android:color="@color/c_grey"/>
+            <corners
+                android:bottomLeftRadius="@dimen/msg_bubble_corner"
+                android:bottomRightRadius="@dimen/msg_bubble_corner"
+                android:topRightRadius="@dimen/msg_bubble_corner"
+                android:topLeftRadius="0dp"
+                />
+
+        </shape>
+    </item>
+</selector>

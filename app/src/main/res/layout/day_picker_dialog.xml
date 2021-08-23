@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/c_yellow"
+    app:cardCornerRadius="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:columnCount="2"
+            app:columnOrderPreserved="false"
+            app:layout_constraintDimensionRatio="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_creator="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <CheckBox
+                android:id="@+id/all_day_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="All week"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/sun_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Sunday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/mon_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Monday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/tue_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Tuesday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/wed_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Wednesday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/thu_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Thursday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/fri_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Friday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+            <CheckBox
+                android:id="@+id/sat_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/c_black"
+                android:text="Saturday"
+                android:textColor="@color/c_black"
+                app:layout_columnWeight="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+
+            <Button
+                android:id="@+id/dy_cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/c_yellow"
+                android:text="cancel"
+                android:textColor="@color/c_black" />
+
+            <Button
+                android:id="@+id/dy_ok_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/c_black"
+                android:text="ok"
+                android:textColor="@color/c_yellow" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
